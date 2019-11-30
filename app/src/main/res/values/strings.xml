@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Explore Jawa Timur</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello World!</string>
+    <string name="slide_1_desc">Alam itu indah, ayo keluar rumah
+        dan nikmati keindahan alam sekitarmu </string>
+
+    <string name="slide_2_title">Low Budget</string>
+    <string name="slide_2_desc">Adventure is cheap.
+        Tak perlu takut untuk memulai petualangan dengan alam sekitarmu</string>
+
+    <string name="slide_3_title">Great Experience</string>
+    <string name="slide_3_desc">Setiap perjalanan akan memberi mu pengalaman dan cerita yang beragam</string>
+
+    <string name="slide_4_title">East Java Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel around East Java!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings
+        -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#feffcd"
+    tools:context="applusiana.tulungagungtourism.wisata_pacitan">
+
+    <TextView
+        android:id="@+id/pctn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="KABUPATEN PACITAN"
+        android:textColor="#fdb265"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Wisata Air"
+        android:background="@drawable/buyutan"
+        android:onClick="airPacitan"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#84FFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Wisata Darat"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#EC407A"
+        android:onClick="daratPacitan"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/geopark"/>
+
+</LinearLayout>
+

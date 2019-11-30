@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A7FFEB"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Pantai Klayar"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/klayar"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Sendang, Kecamatan Donorojo"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Pantai Telengria"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Teleng, Kelurahan Sidoharjo, tepatnya hanya 3 km dari pusat kota Pacitan"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Pantai Watu Karung"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di  Desa Watu Karung, Kecamatan Pringkuku dan berjarak 25 km dari kota Pacitan."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4. Sungai Maron"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/maron"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Sendang, Kecamatan DonorojoDesa Darsono Kecamatan Pringkuku. Wisata ini menawarkan penyusuran sungai dengan kedalaman kurang lebih 2-3 meter dengan pemandangan tebing karts yang menjulang tinggi di samping-samping dari sungai ini. Penyusuran sungai ini berjarak sekitar 5 km dari pantai. lokasi dari kali atau sungai maron ini berada berada di pantai ngiroboyo.
+"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5. Pantai Srau"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/srau"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Dusun Srau Desa Candi Kecamatan Pringkuku "
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="6. Pantai Banyu Tibo"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/banyutibo"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Widoro, kecamatan Donorejo."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="7. Pantai Soge"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Sidomulyo kecamatan Ngadirejo kabupaten Pacitan"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="8. Pantai Karang Bolong"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/karangblg"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9. Pantai Tawang"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Katipugal Kecamatan Kebonagung, Pacitan. Atau sekitar 20km dari pusat kota ke arah timur."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="10. Pantai Taman"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/taman"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pantai Taman ini terkenal akan wahana flying fox terpanjang di Indonesia dengan lintasan sepanjang 415 meter, ketinggian 74 meter dan kecepatan luncur 50 km/detik"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="11. Pantai Kunir"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kunir"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Pager Kidul Kecamatan Sudimoro. Pantai ini memiliki karakteristik berupa pasir yang cukup halus dan dipadukan dengan bukit hijau pegunungan sekitar."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="12. Pemandian Banyu Anget Tirto Husodo"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="13. Pantai Kali Uluh"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Klesem Kecamatan Kebonagung"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="14. Pantai Bawur"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="15. Pantai Wawaran"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wawaran"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="16. Pantai Nampu"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="17. Pantai Kasap"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kasap"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pantai Kasap terletak di Dusun Ketro, Desa Watukarung, Kecamatan Pringkuku, Kabupaten Pacitan, Jawa Timur. Pantai kasap ini memiliki karateristik yang khas yaitu bebatuan karang serta pasir putih. Selain itu Pantai Kasap juga termasuk pantai yang memiliki ombak laut yang cukup besar. "
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="18. Pantai Ngandul"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Letak pantai Ngandul berada di Desa Widoro, Kecamatan Donorojo, Kabupaten Pacitan Jawa Timur, Masih satu wilayah dengan pantai Buyutan."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="19. Pantai Blosok"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk lokasi dari pantai blosokj ini berada di Desa. Watu karung Kec. pringkuku Kab. Pacitan. Karakter pantai ini memiliki pasir yang cukup lembut dengan ombak yang cukup besar."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="20. Pantai Udik Jodrono"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="21. Pantai Langitan"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk lokasi dari wisata pantai langitan berada di desa Watukarung, Pringkuku, Kabupaten Pacitan, Jawa Timur. Di pantai ini terdapat beberapa gugusan pulau pulau kecil yang terpisah tetapi memberikan kesan yang begitu indah nan eksotis."
+                android:textSize="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="22. Pantai Pancer Door"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wisata Pantai Pancer atau juga di kenal dengan nama wisata Pancer Door ini merupakan salah satu bagian pantai dari teluk pacitan yang berada di bagian paling timur dan berhadapan langsung dengan laut Selatan Jawa. Tempat wisata pantai ini memang sudah sangat terkenal bagi para wisatawan sebagai destinasi andalan dari Kabupaten Pacitan. Pantai ini merupakan muara dari sungai Grindulu yang membelah kota Pacitan yang airnya berasal dari Kecamatan Nawangan, bandar, tegalombo dan daerah-daerah lainya bahkan dari Kabupaten Ponorogo yang sungainya menyatu di kali Grindulu ini. Pantai pancer door ini berada di Kelurahan Ploso Kabupaten Pacitan Jawa timur."
+                android:textSize="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="23. Waduk Tukul"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="24. Sungai Baksooka Punung"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baksoka"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wisata Kali atau Sungai Baksooka Punung merupakan salah satu dari situs geologi (geosite) geopark gunung sewu, di sepanjang sungai Baksooka terdapat lintasan geologi yang menawarkan aspek geologi dan arkeologi. Pada segmen bagian utara, pengunjung dapat mencermati singkapan-singkapan batuan oligo-miosen dan miosen tengah yang berfungsi sebagai alas batu gamping. Pada segmen sungai bagian selatan menyimpan batu gamping yang kaya fosil koral, foraminifera, dan moluska. Salah satu yang sering ditemukan di Sungai Baksooka adalah kapak genggam. Jenis kapak inilah yang menjadikan Pacitan terkenal dalam dunia prasejarah dengan sebutan: Pacitanian. Terbuat dari jenis batu Kalsedon dengan, ciri-cirinya, ada dua pangkasan pada kedua sisinya. "
+                android:textSize="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="25. Air Terjun Gringsing Tegalombo"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="26. Pantai Pidakan"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pidakan"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wisata pantai ini memiliki ciri khas berupa material bebatuan karang-karang yang hamper memiliki luas 70 % dari kawasan pantai pidakan ini. Untuk lokasi dari Pantai Pidakan berada di dusun Godeg Kulon, Desa Jetak, Kecamatan Tulakan, Pacitan, Jawa timur."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="27. Pantai Denombo"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Jlubang Kecamatan Pringkuku Kabupaten Pacitan Jawa Timur."
+                android:textSize="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="28. Pantai Sengklean"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="29. Pantai Watu Murep"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="30. Kali Cokel"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="31. Pantai Buyutan"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/buyutan"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Jetak, Kecamatan Tulakan. Letaknya cukup agak tersembunyi karena berada di balik tebing, sehingga suasananya yang masih sunyi dan jauh dari hingar bingar mampu membius siapapun dengan pesonanya.yang unik dari pantai ini juga karena terdapat batu-batu karang berukuran besar dengan berbagai bentuk, mulai dari yang berbentuk perahu hingga berbentuk mahkota. "
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

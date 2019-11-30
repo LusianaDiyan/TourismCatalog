@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="applusiana.tulungagungtourism">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_jatim"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--<activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen.">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"/>-->
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".kategori_wisata_TA" />
+        <activity android:name=".alam_tulungagung" />
+        <activity android:name=".buatan_tulungagung" />
+        <activity android:name=".sejarah_tulungagung" />
+        <activity android:name=".kampung_tulungagung" />
+        <activity android:name=".Wisata_Malang" />
+        <activity android:name=".KabMalang" />
+        <activity android:name=".KotaBatu" />
+        <activity android:name=".KotaMalang" />
+        <activity android:name=".wisata_banyuwangi" />
+        <activity android:name=".wisata_pacitan" />
+        <activity android:name=".air_pacitan" />
+        <activity android:name=".darat_pacitan" />
+        <activity android:name=".wisata_magetan" />
+        <activity android:name=".sejarah_magetan" />
+        <activity android:name=".alam_magetan" />
+        <activity android:name=".buatan_magetan" />
+        <activity android:name=".wisata_surabaya" />
+        <activity android:name=".sejarah_sby" />
+        <activity android:name=".hiburan_sby" />
+        <activity android:name=".Wisata_Lainnya" />
+        <activity android:name=".AlamJatim" />
+        <activity android:name=".sejarahJatim" />
+        <activity android:name=".buatanJatim" ></activity>
+    </application>
+
+</manifest>

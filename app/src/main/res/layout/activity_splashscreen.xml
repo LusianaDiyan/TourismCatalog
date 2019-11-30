@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="applusiana.tulungagungtourism.Splashscreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="WELCOME to"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="40dp"
+        android:textColor="#00ff83"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58dp"
+        android:src="@drawable/jatimurr" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/east"
+        android:text="EAST JAVA"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/logo"
+        android:textSize="50dp"
+        android:textColor="#9afe2e"/>
+
+    <ProgressBar
+        android:id="@+id/rolling"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:indeterminate="true" />
+
+</RelativeLayout>

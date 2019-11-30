@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCFF90"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Goa Gong"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gong"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Pule, Desa Bomo, Kecamatan Punung, sekitar 30 menit dari Kota Pacitan yang berjarak 37 km."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Goa Tabuhan"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di dusun Tabuhan Desa Wereng Kecamatan Punung. Asal muasal nama Goa Tabuhan sendiri berasal dari kata tabuh, yang berarti membunyikan. Karena di dalam sudut goa terdapat kumpulan stalagtit yang dapat menghasilkan beberapa tabuhan bagaikan musik gamelan. Itulah sebabnya goa ini bernama Goa Tabuhan."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Goa Luweng Jaran"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Dusun Kasri, Desa Jlubang, Kecamatan Pringkuku. Goa Luweng Jaran memiliki lorong yang sangat panjang dan dapat terhubung dengan goa lainnya. Sepanjang goa terdapat pemandangan yang cukup indah yaitu berupa batuan stralagmit dan stalagtit yang kokoh dan menjadi panorama ketika kita menyusuri goa ini."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4. Monumen Jenderal Sudirman"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jend"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5. Museum Geopark"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/geopark"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lokasinya di kawasan wisata Pantai Pancer Door, Kabupaten Pacitan, Jawa Timur atau lebih tepatnya berada di Desa Ploso, Kec. Pacitan, Kabupaten Pacitan, Jawa Timur. "
+                android:textSize="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="6. Taman Pancer Door"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="7. Wisata Pinus Gemaharjo"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk lokasi dari wisata hutan pinus ini berada di Desa Gemaharjo, Kecamatan Tegalombo, Kabupaten Pacitan, Jawa Timur."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="8. Rumah masa kecil SBY"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pacitan adalah kampung halaman Mantan Presiden SBY. Semasa kecilnya, SBY tinggal di rumahnya yang terletak persis di pusat Kota Pacitan."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9. Kawedanan Lorok"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="10. Monumen Cinta Pacitan"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mungkin selama ini monumen penting yang mengandung banyak rahasia yang belum terungkap yang memiliki banyak rahasia nilai sejarah yang masih terus di teleti ini masih banyak belum diketahui oleh para warga Pacitan. Monument ini memiliki arsitektur bergaya Eropa dengan tulisan berbahasa latin. "
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="11. Situs Ngrijangan"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="12. Barong Wetan Candi Pringkuku"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="13. Tugu Perbatasan Jawa Tengah"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="14. Museum Buwono Keling"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk lokasi Wisata Museum Buwono Keling terletak di Dusun Krajan Kulon, Desa Mantren, Kecamatan Punung, Pacitan. Museum ini merupakan museum Arkeologi. Dibangun pada tahun 1996 dan difungsikan pada tahun yang sama. Bangunan ini dibuat satu lantai dengan luas bangunan 20 m x 50 m. Status kepemilikan tanah adalah hak milik negara. Sedangkan koleksi sendiri cukup banyak yaitu sekitar 3.896 koleksi. Museum ini menyelenggarakan pameran khusus satu kali dalam seta"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="15. Lapangan Tembak Pacitan"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk lokasi Lapangan Tembak atau wisata Pantai Babakan Tugurangung ini terletak di Desa Dadapan di Kecamatan Pringkuku, ditempuh dari pusat kota sekitar 10 Km."
+                android:textSize="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="16. Mandi Angin"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mandi angin sendiri adalah spot untuk melihat pantai teleng ria dari atas dan ketika berada diatas banyak angin yang akan menerpa wajah, rambut dan seluruh tubuh, makanya tempat ini dinamakan sebagai wisata Mandi Angin. Memang panorama diatas bukit ini memberikan kesan tersendiri untuk menikmati indahnya pantai teleng ria yang luas dan indah. "
+                android:textSize="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="17. Gunung Lanang"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk lokasi dari Gunung Lanang terletak di Desa Punjung, Kecamatan Kebonagung, Pacitan, Jawa Timur. Untuk jaraknya tersendiri dari Gunung Lanang hanya sekitar 20 Km dari pusat Kota Pacitan atau hanya menempuh perjalanan sekitar 30 menit. Untuk kalian yang suka dengan wisata pegunungan kalian wajib mencoba destinasi wisata ini. "
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="18. Gunung Suruloyo"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk ketinggian Gunung Suroloyo ini bisa dibilang lumayan tinggi yaitu berkisar kurang lebih 1000 mdpl. Kalian akan disuguhi pemandangan yang indah nan hijau yang pastinya dapat membius mata kalian. Untuk lokasinya berada di desa Losari, Kecamatan Tulakan, Kabupaten Pacitan, Jawa Timur."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="19. Gunung Limo"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="20. Goa Song Terus"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk lokasi Wisata Goa Song Terus yang berada di Desa Mandolo Lor, Kecamatan Punung Kabupaten Pacitan "
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

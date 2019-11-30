@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4FF81"
+    tools:context="applusiana.tulungagungtourism.Wisata_Lainnya">
+
+    <TextView
+        android:id="@+id/jatim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="JAWA TIMUR"
+        android:textColor="#FF6E40"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Wisata Alam"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:onClick="alamJatim"
+        android:background="@drawable/papuma"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Wisata Sejarah"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#F44336"
+        android:onClick="sejarahJatim"
+        android:background="@drawable/megalitikum"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Wisata Buatan"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#4527A0"
+        android:onClick="buatanJatim"
+        android:background="@drawable/wbl"/>
+</LinearLayout>

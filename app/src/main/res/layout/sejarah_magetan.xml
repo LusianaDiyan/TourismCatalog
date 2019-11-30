@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD180"
+    android:orientation="vertical"
+    tools:context="applusiana.tulungagungtourism.sejarah_magetan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Petirtaan Dewi Sri"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dewi"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wisata Pemandian Dewi Sri Magetan adalah salah satu tempat wisata yang berada di Desa Simbatan, Kecamatan Nguntoronadi, Kabupaten Magetan. Dewi Sri, dalam mitologi Jawa, dikenal sebagai dewi yang memberi penghidupan bagi manusia. Tidak heran jika Dewi Sri dianggap sumber penghidupan. Karena patung Dewi Sri yang terdapat di Petirtaan Dewi Sri, ini selalu memancarkan air dari dua payudaranya.  "
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Prasasti Sendang Kamal"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Candi reog"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/reog"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Candi Reog merupakan salah satu peninggalan di jaman Erlangga, petilasan kerajaan Majapahit terletak di Desa Cepoko Kecamatan Panekan sebelah utara Kabupaten Magetan."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4. Tugu Garuda"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5. MAKAM G.B.R.Ay"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/makamgbr"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tempat makam G.B.R.Ay. Maduretno dan K.P.A.H. Ronggo Prawirodirdjo III. K.P.A.H. Ronggo Prawirodirdjo III adalah Adipati Maospati Madiun ke III, dihukum mati sebagai pemberontak melawan penjajahan Belanda dan dimakamkan di makam pemberontak Banyu Sumurup tahun 1810 dinyatakan sebagai pejuang perintis melawan Belanda oleh Sri Sultan Hamengku Buwono IX tahun 1957 dan dimakamkan kembali di Gunung Bancak Desa Giripurno +/- 18 Km arah Tenggara dari kota Magetan. Makam permaisurinya Putri Hamengku Buwono II, G.B.R.Ay. Maduretno merupakan tempat semedi dan ziarah oleh warga masyarakat luar maupun dalam kota Magetan."
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="6. Keprabon"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="7. Makam Peninggalan Mojopahit"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/makammajapahit"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="8. Candi Sadon"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9. Monumen Soco"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/soco"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merupakan obyek wisata sejarah, di mana tempat wisata ini merupakan tempat terjadinya tragedi berdarah dari keganasan pemberontakan PKI tahun 1948 dengan ditandai monumen berupa gerbong Kereta Api Kertopati. Gerbong ini digunakan untuk mengangkut para korban keganasan PKI. Monumen tersebut terletak di desa Soco Kecamatan Bendo + - 15 Km arah timur dari pusat kota Kabupaten Magetan"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="8. Candi Simbatan(Arca Dewi Sri)"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terletak di Desa Simbatan +/- 17 Km arah timur dari kota Magetan. Sejak tahun 1813 Arca Dewi Sri setiap hari Jum'at Pahing bulan Muharram dilaksanakan Bersih Desa secara rutin tiap tahun oleh warga setempat pada siang hari. Sejak tahun 1933 sampai tahun 1942, pada Arca Dewi Sri tepat pada dada kiri dan kanan keluar air sumber yang bersih, sebagian besar oleh warga Tulungagung dan Kediri air tersebut diambil dan dimanfaatkan untuk pengobatan segala macam penyakit."
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
